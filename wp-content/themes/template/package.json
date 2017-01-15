@@ -1,21 +1,17 @@
 {
-  "name": "hodiern-wpblanktheme",
+  "name": "htemplate",
   "version": "0.0.0",
-  "description": "hodiern-wpblanktheme ====================",
+  "description": "Last WP bootstrapped with a clean and modular template, the Htemplate",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hitaboy/hodiern-wpblanktheme.git"
-  },
   "author": "hodiern",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hitaboy/hodiern-wpblanktheme/issues"
+    "url": "https://github.com/hitaboy/htemplate/issues"
   },
-  "homepage": "https://github.com/hitaboy/hodiern-wpblanktheme",
+  "homepage": "https://github.com/hitaboy/htemplate",
   "devDependencies": {
     "browser-sync": "^2.9.1",
     "gulp": "^3.9.0",
