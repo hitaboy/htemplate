@@ -1,4 +1,4 @@
-# [Htemplate]
+# Htemplate
 
 Htemplate is a bootstrap WP install for custom development. It has the last WP release with the Htemplate preinstalled.
 
