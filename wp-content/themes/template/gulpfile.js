@@ -3,19 +3,25 @@ var gulp          = require('gulp'),
     concat        = require('gulp-concat'),
     browserSync   = require('browser-sync').create(),
     notify        = require("gulp-notify"),
-    uglify        = require('gulp-uglify');
+    uglify        = require('gulp-uglify'),
+    autoprefixer  = require('gulp-autoprefixer'),
+    header        = require('gulp-header'),
+    fs            = require('file-system'),
+    cleanCSS      = require('gulp-clean-css');
 
 gulp.task('sassComp', function() {
   return gulp.src('./sass/style.scss')
     .pipe(sass().on('error', sass.logError))
+    .pipe(autoprefixer())
+    .pipe(cleanCSS({compatibility: 'ie8'}))
+    .pipe(header(fs.readFileSync('style-config.txt', 'utf8')))
     .pipe(gulp.dest('./'));
 });
 
 gulp.task('jsConcat', function() {
   return gulp.src([
-  './js/modernizr.min.js',
-  './js/jquery-2.1.3.min.js',
-  './js/vendor/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js',
+  './js/vendor/modernizr.js',
+  './js/vendor/jquery-3.1.1.min.js',
   './js/scripts.js'])
     .pipe(concat('scripts-min.js'))
     .pipe(uglify())
