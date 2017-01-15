@@ -1,0 +1,30 @@
+/*------------------------------------*\
+    STRUCTURE
+\*------------------------------------*/
+/* wrapper */
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 13px;
+  padding-right: 11px;
+}
+/* header */
+/* logo */
+.logo {
+  position: relative;
+  float: left;
+  width: 495px;
+  height: 84px;
+}
+/* nav */
+.nav {
+  position: relative;
+  float: right;
+}
+.nav ul li {
+  float: left;
+  margin-right: 10px;
+}
+/* sidebar */
+/* footer */
