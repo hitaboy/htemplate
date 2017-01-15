@@ -5,8 +5,8 @@
 !.gitignore
 
 # don’t track readme.md or readme.html
-readme.md
-readme.html
+# readme.md
+# readme.html
 
 # ignore all files that start with ~
 ~*
