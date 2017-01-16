@@ -2,7 +2,7 @@
 	Theme Name: Htemplate Base Theme
 	Theme URI: http://www.hodiern.com
 	Description: Htemplate is a bootstrap WP install for custom development.
-	Version: 2.1
+	Version: 3.1
 	Author: Pere Esteve ($hitaboy)
 	Author URI: http://www.hodiern.com
 	Tags: HTML5, SASS, CSS3

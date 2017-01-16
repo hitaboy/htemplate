@@ -29,8 +29,6 @@
 
 		<div class="wrapper">
 
-      <div class="mobileMenu"><i class="fa fa-bars fa-2x"></i></div>
-
 			<header class="header clear" role="banner">
 
     			<div class="mobileClose"><i class="fa fa-times fa-2x"></i></div>
